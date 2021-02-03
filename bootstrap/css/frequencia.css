@@ -1,0 +1,35 @@
+/* Cores alternadas nas linhas da tabela */
+tr:nth-child(even)>td {
+	 background-color: #AAAAAA;
+}
+
+tr:nth-child(odd)>td {
+	background-color: #DDDDDD;
+}
+
+.th {
+    background-color: seagreen;
+    color: white;
+}
+
+.tabelaNomes{
+	margin-top: 1%;
+}
+
+#recep{
+	font-size: 70px;
+	font-style: italic;
+	color: #FF8C00;
+	font-family: Georgia;
+}
+
+select{
+	position: absolute;
+	height: 35px;
+	border-radius: 5px;
+}
+
+#center{
+	position: relative;
+	top: 100px;
+}
